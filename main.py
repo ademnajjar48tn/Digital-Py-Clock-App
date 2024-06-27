@@ -3,3 +3,5 @@ from tkinter import Tk
 from tkinter import Label
 
 window = Tk();
+
+window.mainloop();
