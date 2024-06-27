@@ -6,14 +6,14 @@ import sys
 
 window = Tk()
 
-master.title("Digital Clock")
+window.title("Digital Clock")
 
 def get_time():
     timeVar = time.strftime("%I:%M:%S %p")
-    clock.config(text=timeVar)
-    clock.after(200, get_time)
+    time.config(text=timeVar)
+    time.after(200, get_time)
 
-time = Label(master, font=("Helvetica", 90), bg="black", fg="white")
+time = Label(window, font=("Helvetica", 90), bg="black", fg="white")
 
 time.pack()
 
