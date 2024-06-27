@@ -2,10 +2,10 @@ from datetime import datetime
 from tkinter import Tk
 from tkinter import Label
 
-window = Tk();
+window = Tk()
 
-master.title("Digital Clock");
+master.title("Digital Clock")
 
-time = Label(master, font=("Helvetica", 90), bg="black", fg="white");
+time = Label(master, font=("Helvetica", 90), bg="black", fg="white")
 
-window.mainloop();
+window.mainloop()
