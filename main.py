@@ -6,4 +6,6 @@ window = Tk();
 
 master.title("Digital Clock");
 
+time = Label(master, font=("Helvetica", 90), bg="black", fg="white");
+
 window.mainloop();
