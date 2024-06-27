@@ -2,6 +2,7 @@ from datetime import datetime
 from tkinter import Tk
 from tkinter import Label
 import time
+import sys
 
 window = Tk()
 
